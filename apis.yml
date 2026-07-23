@@ -1,8 +1,27 @@
 aid: b-and-l-information-systems
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/b-and-l-information-systems.png
 name: B&L Information Systems
-description: B&L Information Systems is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: B&L Information Systems, LLC is a metalcasting-focused enterprise resource
+  planning (ERP) software company founded more than 50 years ago and headquartered in
+  Bridgman, Michigan. Its flagship product, Odyssey ERP, is a cloud-based ERP purpose-built
+  for foundries, die casters, and investment casters, spanning manufacturing, sales,
+  inventory, quality, finance, and data analytics. B&L pairs the software with implementation,
+  consulting, data-conversion, training, and support services tailored to the metalcasting
+  industry. The company is a portfolio company of Battery Ventures. As of this enrichment
+  pass, B&L does not publish a public developer portal, REST API documentation, SDKs, or
+  an OpenAPI definition, so this profile captures company identity and public web properties
+  rather than an API surface.
 url: https://raw.githubusercontent.com/api-evangelist/b-and-l-information-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +31,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- ERP
+- Metalcasting
+- Foundry
+- Die Casting
+- Investment Casting
+- Manufacturing
+- Cloud Software
+- Enterprise Software
+- Data Analytics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/b-and-l-information-systems-domain-security.yml
+- type: Website
+  url: https://www.blinfo.com/
+- type: Support
+  url: https://www.blinfo.com/services/support/
+- type: Blog
+  url: https://www.blinfo.com/blog/
+- type: PrivacyPolicy
+  url: https://www.blinfo.com/site/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
